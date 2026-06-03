@@ -14,7 +14,7 @@ class Settings(BaseSettings):
 
     DATABASE_URL_ASYNC: str
     DATABASE_URL: str
-    TEST_DATABASE_URL: str
+    TEST_DATABASE_URL: str | None = None
 
     model_config = SettingsConfigDict(
         env_file=".env",
