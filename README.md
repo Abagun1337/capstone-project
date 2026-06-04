@@ -164,3 +164,7 @@ docker compose exec api pytest tests/ -v
 - **Soft deletes** — users and courses are soft-deleted (`deleted_at` timestamp)
 - **Audit logs** — enrollment actions are logged
 - **Rate limiting** — login endpoint limited to 5 attempts per 60 seconds per IP
+
+## Live API
+
+https://capstone-project-3kpl.onrender.com/docs
