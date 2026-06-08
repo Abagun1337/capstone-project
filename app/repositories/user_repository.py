@@ -51,7 +51,6 @@ class UserRepository:
         for key, value in fields.items():
             setattr(user, key, value)
         await db.flush()
-        await db.refresh(user)
         return user
 
     @staticmethod

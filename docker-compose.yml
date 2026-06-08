@@ -17,7 +17,7 @@ services:
     image: postgres:16-alpine
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: Olamide101
+      POSTGRES_PASSWORD: posgres
       POSTGRES_DB: CAPSTONE_PROJECT
     volumes:
       - postgres_data:/var/lib/postgresql/data
